@@ -1,0 +1,6 @@
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# Dump file
+*.stackdump
