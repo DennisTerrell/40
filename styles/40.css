@@ -3,3 +3,9 @@ body {
   background-color: #00000;
   color: #ffffff;
 }
+
+.wrapper {
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
