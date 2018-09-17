@@ -5,13 +5,13 @@ button.on('click', function clicked() {
 		
 	$(this).off('click', clicked);
 
-var count=40;
+var count=1;
 var counter=setInterval(timer, 100);
 
 function timer()
 {
-  count -= 1;
-  if (count === -1)
+  count += 1;
+  if (count === 41)
   {
   	clearInterval(counter);
 		
