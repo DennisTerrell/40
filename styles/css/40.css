@@ -46,7 +46,8 @@ html, body {
   width: 85%;
   height: 85%;
   background-color: #343F4F;
-  overflow: hidden; }
+  overflow: hidden;
+  box-shadow: 0 0 100px 0 black; }
   .card .card__counter {
     display: flex;
     font-family: "Anonymous Pro";
@@ -133,13 +134,5 @@ html, body {
     height: 75px;
     border-radius: 50%;
     visibility: visible; } }
-.shadow {
-  display: flex;
-  position: absolute;
-  width: 85%;
-  height: 85%;
-  content: '';
-  box-shadow: 0 0 100px 0 black;
-  z-index: 10; }
 
 /*# sourceMappingURL=40.css.map */

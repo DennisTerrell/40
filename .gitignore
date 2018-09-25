@@ -6,3 +6,6 @@ ehthumbs.db
 *.stackdump
 
 .DS_Store
+
+/styles/scss/.sass-cache
+/styles/scss/.sass-cache/*
