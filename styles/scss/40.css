@@ -18,7 +18,7 @@ html, body {
 .card {
   width: 85%;
   height: 85%;
-  background-color: #343F4F;
+  background-color: #778899;
   -webkit-box-shadow: 0 0 100px 0 black;
           box-shadow: 0 0 100px 0 black;
 }
