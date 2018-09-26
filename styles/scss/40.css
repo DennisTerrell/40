@@ -38,4 +38,8 @@ html, body {
   font-size: 20em;
   display: block;
 }
+
+.text p {
+  font-size: 1em;
+}
 /*# sourceMappingURL=40.css.map */
