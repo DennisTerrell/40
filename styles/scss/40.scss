@@ -16,22 +16,21 @@ html, body {
 }
 
 .card {
-  //display: flex;
-  //justify-content: center;
-  //align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 85%;
   height: 85%;
   background-color: $blue;
-  //overflow: hidden;
   box-shadow: 0 0 100px 0 rgb(122, 115, 115);
   border-radius: 25px;
 
-   &:before {
-   content: "XL";
-   font-size: 20em;
-   display: block;
-   text-align: center;
-  }
+   //&:before {
+   //content: "XL";
+   //font-size: 20em;
+   //display: block;
+   //text-align: center;
+ // }
 }
 
 .text p{
