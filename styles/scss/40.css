@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+html, body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 101%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #35f60a;
+  overflow: hidden;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 85%;
+  height: 85%;
+  background-color: #343F4F;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 100px 0 black;
+          box-shadow: 0 0 100px 0 black;
+}
+
+.card:before {
+  content: "XL";
+  font-size: 20em;
+  display: block;
+}
+/*# sourceMappingURL=40.css.map */
