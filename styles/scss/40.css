@@ -16,19 +16,9 @@ html, body {
 }
 
 .card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 85%;
   height: 85%;
   background-color: #343F4F;
-  overflow: hidden;
   -webkit-box-shadow: 0 0 100px 0 black;
           box-shadow: 0 0 100px 0 black;
 }
@@ -37,9 +27,11 @@ html, body {
   content: "XL";
   font-size: 20em;
   display: block;
+  text-align: center;
 }
 
 .text p {
-  font-size: 1em;
+  font-size: 2em;
+  text-align: center;
 }
 /*# sourceMappingURL=40.css.map */

@@ -15,22 +15,24 @@ html, body {
 }
 
 .card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
   width: 85%;
   height: 85%;
   background-color: $blue;
-  overflow: hidden;
+  //overflow: hidden;
   box-shadow: 0 0 100px 0 black;
 
    &:before {
    content: "XL";
    font-size: 20em;
    display: block;
+   text-align: center;
   }
 }
 
 .text p{
-  font-size: 1em;
+  font-size: 2em;
+  text-align: center;
 }
