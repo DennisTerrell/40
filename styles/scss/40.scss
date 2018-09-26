@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 $blue: #778899;
-$pink: #FC6D6D;
 $black: #000000;
 
 
@@ -25,12 +24,13 @@ html, body {
   box-shadow: 0 0 100px 0 rgb(122, 115, 115);
   border-radius: 25px;
 
-   //&:before {
-   //content: "XL";
-   //font-size: 20em;
-   //display: block;
-   //text-align: center;
- // }
+   &:before {
+   content: "XL";
+   font-size: 20em;
+   display: block;
+   text-align: center;
+   z-index: 1;
+  }
 }
 
 .text p{

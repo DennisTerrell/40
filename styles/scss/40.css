@@ -33,6 +33,14 @@ html, body {
   border-radius: 25px;
 }
 
+.card:before {
+  content: "XL";
+  font-size: 20em;
+  display: block;
+  text-align: center;
+  z-index: 1;
+}
+
 .text p {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 2em;
