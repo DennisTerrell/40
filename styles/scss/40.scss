@@ -19,10 +19,11 @@ html, body {
   //justify-content: center;
   //align-items: center;
   width: 85%;
-  height: 85%;
+  height: 60%;
   background-color: $blue;
   //overflow: hidden;
   box-shadow: 0 0 100px 0 black;
+  border-radius: 25px;
 
    &:before {
    content: "XL";
