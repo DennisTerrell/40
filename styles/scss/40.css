@@ -11,7 +11,7 @@ html, body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #35f60a;
+  background-color: #000000;
   overflow: hidden;
 }
 
@@ -19,8 +19,8 @@ html, body {
   width: 85%;
   height: 60%;
   background-color: #778899;
-  -webkit-box-shadow: 0 0 100px 0 black;
-          box-shadow: 0 0 100px 0 black;
+  -webkit-box-shadow: 0 0 100px 0 #7a7373;
+          box-shadow: 0 0 100px 0 #7a7373;
   border-radius: 25px;
 }
 
